@@ -1,2 +1,2 @@
 # My-Lab
-This repo may contain my practice lab
+This repository may contain my practice lab
