@@ -11,7 +11,7 @@
 
 int main ()
 {
-    
+    cout << "hey";
    
     return 0;
 }
