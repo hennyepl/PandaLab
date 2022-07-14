@@ -1,3 +1,1 @@
-# My-Lab
-This repository may contain my practice lab
-check
+# PandaLab :panda_face:
