@@ -1,11 +1,22 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cstring>
+
 using namespace std;
+
+// return the number of characters in the string
+string::size_type strlength(const string& s)
+{
+    return s.size();
+}
+
 int main ()
 {
-    int age;
-    cout << "How old are you? ";
-    cin >> age;
-    cout << "You are " << age << " years old" << endl;
-    cout << "Repository created Successfully";
+    string s = "Hello World";
+    cout << strlength(s) << endl;
+    
     return 0;
 }
+
