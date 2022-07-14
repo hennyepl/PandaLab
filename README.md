@@ -1,1 +1,1 @@
-# PandaLab :panda_face:
+# PandaLab &#x1f43c;
