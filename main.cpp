@@ -1,22 +1,18 @@
+/******************************************************************************/
+/*            THIS FILE CONTAINES THE HOME PAGE FOR THE PROGRAM               */
+/******************************************************************************/
+/* AUTHOR: HENOK LAMISO                                                       */
+/* DATE: JULY 2022                                                            */
+/* VERSION: 1.0                                                               */
+/* DESCRIPTION: THIS FILE CONTAINES THE HOME PAGE FOR THE PROGRAM             */
+/******************************************************************************/
+
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <cstring>
-
-using namespace std;
-
-// return the number of characters in the string
-string::size_type strlength(const string& s)
-{
-    return s.size();
-}
 
 int main ()
 {
-    string s = "Hello World";
-    cout << strlength(s) << endl;
     
+   
     return 0;
 }
 
