@@ -30,7 +30,7 @@ int main ()
     std::cout << "*" << std::setw(0) <<" Whether it's web security or managing operating system, algorthims are needed in all areas. " << std::setw(7) << "*" << std::endl;
     std::cout << "*" << std::setw(0) <<" Algorthim can make complex problems easily solvable even if the problem is kind of impossible to " << std::setw(2) << "*" << std::endl;
     std::cout << "*" << std::setw(0) <<" solve. So, in simple words, problem-solving become easy. This why I developed this program that " << std::setw(3) << "*" << std::endl;
-    std::cout << "*" << std::setw(0) <<" contains top 25 algorthims every programmer should know." << std::setw(43) << "*" << std::endl;
+    std::cout << "*" << std::setw(0) <<" contains top 10 algorthims every programmer should know." << std::setw(43) << "*" << std::endl;
     std::cout << "*" << std::setw(0) <<" " << std::setw(99) << "*" << std::endl;
     std::cout << std::setfill('*') << std::setw(101) << "*" << std::endl;
 
