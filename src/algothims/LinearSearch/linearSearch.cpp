@@ -36,7 +36,7 @@ int main()
         char answer;
         std::cin >> answer;
         std::cout << "\033[1;31m"; 
-        std::cout << "\n**\tSEARCH TERMINATED\t**\n";
+        std::cout << "\n\n**\tSEARCH TERMINATED\t**\n";
         std::cout << "\033[0m" << "\n**\tGoodbye for now!\t**\n\n";
         
         while (answer == 'y')
