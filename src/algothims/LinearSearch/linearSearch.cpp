@@ -6,10 +6,11 @@ int main()
 {
     // ask user for the size of the array
     int size;
-    std::cout << "Enter the size of the array: ";
+    std::cout << "\nEnter the size of the array: ";
     std::cin >> size;
 
     // ask user to enter the values of the array size = size
+    
     int array[size];
     std::cout << "Enter the values of the array: "; 
     for (int i = 0; i < size; i++)
@@ -30,8 +31,14 @@ int main()
     {
         std::cout << "The value is not found in the array.\n";
         std::cout << "Do you want to search again? (y/n): ";
+        
+        
         char answer;
         std::cin >> answer;
+        std::cout << "\033[1;31m"; 
+        std::cout << "\n**\tSEARCH TERMINATED\t**\n";
+        std::cout << "\033[0m" << "\n**\tGoodbye for now!\t**\n\n";
+        
         while (answer == 'y')
         {
             std::cout << "Enter the value to be searched: ";
@@ -58,7 +65,6 @@ int main()
     {
         std::cout << "The value is found in the array.\n";
     }
-
 
     return 0;
 }
